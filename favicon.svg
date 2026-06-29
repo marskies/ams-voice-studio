@@ -1,0 +1,12 @@
+<svg viewBox="0 0 72 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AMS Voice Studio mark">
+  <title>AMS Voice Studio — icon</title>
+  <path d="M19 19 Q26 11 33 19" fill="none" stroke="#2E6F94" stroke-width="3" stroke-linecap="round"/>
+  <path d="M39 19 Q46 11 53 19" fill="none" stroke="#2E6F94" stroke-width="3" stroke-linecap="round"/>
+  <rect x="16" y="34" width="4" height="18" rx="2" fill="#2E6F94"/>
+  <rect x="22" y="40" width="4" height="12" rx="2" fill="#2E6F94"/>
+  <rect x="28" y="44" width="4" height="8" rx="2" fill="#2E6F94"/>
+  <rect x="34" y="46" width="4" height="6" rx="2" fill="#E68A3C"/>
+  <rect x="40" y="44" width="4" height="8" rx="2" fill="#2E6F94"/>
+  <rect x="46" y="40" width="4" height="12" rx="2" fill="#2E6F94"/>
+  <rect x="52" y="34" width="4" height="18" rx="2" fill="#2E6F94"/>
+</svg>
