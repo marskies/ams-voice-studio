@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AMS Voice Studio | Voice Lessons in St. Augustine, FL &amp; Online</title>
+  <meta name="description" content="Warm, welcoming voice lessons in St. Augustine and online with a classically trained tenor. Healthy bel canto technique for every voice." />
+  <meta name="keywords" content="voice lessons St. Augustine, vocal coach, bel canto, singing lessons, online voice lessons" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AMS Voice Studio | Voice Lessons in St. Augustine, FL &amp; Online" />
+  <meta property="og:description" content="Warm, welcoming voice lessons in St. Augustine and online. Healthy, classical technique for every voice." />
+  <meta property="og:image" content="aaron-headshot.JPG" />
+  <meta property="og:url" content="https://marskies.github.io/ams-voice-studio/" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Fredoka:wght@400;500;600&family=Karla:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--tide:#2E6F94;--shallows:#8FC3DC;--paradise:#E68A3C;--sand:#ECDFC6;--paper:#FBF7EF;--deep:#1B2A38;--card:#FFFDF8;--line:#E2D6BE;--muted:#5E6B66;--r-lg:24px;--r-sm:10px;--shadow:0 10px 30px rgba(27,42,56,.08);}
+    *{box-sizing:border-box;}
+    html{scroll-behavior:smooth;}
+    body{margin:0;font-family:'Karla',system-ui,sans-serif;color:var(--deep);background:var(--paper);line-height:1.6;font-size:18px;}
+    h1,h2,h3,h4{font-family:'Fredoka',system-ui,sans-serif;font-weight:600;color:var(--deep);line-height:1.15;margin:0 0 .5em;}
+    a{color:var(--tide);}
+    img{max-width:100%;display:block;}
+    .wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
+    .eyebrow{font-family:'Karla',sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:.78rem;font-weight:700;color:var(--tide);}
+    .btn{display:inline-block;font-family:'Karla',sans-serif;font-weight:700;font-size:1rem;text-decoration:none;padding:14px 26px;border-radius:999px;border:2px solid transparent;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease,background .15s ease;}
+    .btn:focus-visible{outline:3px solid var(--tide);outline-offset:3px;}
+    .btn:hover{transform:translateY(-2px);}
+    .btn-primary{background:var(--paradise);color:var(--deep);box-shadow:0 8px 20px rgba(230,138,60,.28);}
+    .btn-primary:hover{background:#d97e31;}
+    .btn-secondary{background:var(--tide);color:#fff;}
+    .btn-secondary:hover{background:#275f80;}
+    .btn-outline{background:transparent;color:var(--tide);border-color:var(--tide);}
+    .btn-outline:hover{background:rgba(46,111,148,.08);}
+    .nav{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .3s ease,box-shadow .3s ease;}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 24px;max-width:1120px;margin:0 auto;}
+    .nav.scrolled{background:var(--paper);box-shadow:0 4px 18px rgba(27,42,56,.06);}
+    .nav-logo img{height:44px;width:auto;}
+    .nav-logo{display:flex;align-items:center;text-decoration:none;}
+    .nav-logo .wordmark{font-family:'Pacifico',cursive;font-size:1.4rem;color:var(--tide);}
+    .nav-links{display:flex;align-items:center;gap:28px;list-style:none;margin:0;padding:0;}
+    .nav-links a{text-decoration:none;color:var(--deep);font-weight:500;}
+    .nav-links a:hover{color:var(--tide);}
+    .nav-right{display:flex;align-items:center;gap:18px;}
+    .nav-toggle{display:none;background:var(--card);border:2px solid var(--line);border-radius:999px;padding:8px 12px;cursor:pointer;}
+    .nav-toggle span{display:block;width:22px;height:2px;background:var(--tide);margin:4px 0;border-radius:2px;}
+    .hero{position:relative;min-height:92vh;display:flex;align-items:center;overflow:hidden;background:var(--shallows);}
+    .hero-media{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;}
+    .hero-scrim{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(236,223,198,.30) 0%,rgba(46,111,148,.22) 100%);}
+    .hero-content{position:relative;z-index:2;max-width:640px;padding:140px 24px 80px;}
+    .hero-panel{background:rgba(251,247,239,.78);backdrop-filter:blur(4px);border-radius:var(--r-lg);padding:36px 36px 40px;box-shadow:var(--shadow);}
+    .hero h1{font-size:clamp(2.4rem,6vw,4rem);margin:.2em 0 .3em;}
+    .hero p.subhead{font-size:1.2rem;margin:0 0 1.6em;max-width:30ch;}
+    section{padding:88px 0;}
+    .section-sand{background:var(--sand);}
+    .section-paper{background:var(--paper);}
+    .lead{font-size:1.15rem;max-width:60ch;color:var(--deep);}
+    .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center;}
+    .about-photo{border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);background:var(--card);aspect-ratio:4/5;}
+    .about-photo img{width:100%;height:100%;object-fit:cover;}
+    .about-text p{margin:0 0 1.1em;}
+    .lesson-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px;}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:32px 28px;display:flex;flex-direction:column;box-shadow:var(--shadow);}
+    .card.featured{border-color:var(--paradise);border-width:2px;}
+    .card h3{font-size:1.4rem;margin-bottom:6px;}
+    .card .price{font-family:'Fredoka',sans-serif;font-size:2rem;color:var(--tide);margin:4px 0 14px;}
+    .card p{color:var(--muted);margin:0 0 22px;flex:1;}
+    .card .btn{width:100%;text-align:center;}
+    .lessons-soft{margin-top:28px;color:var(--muted);font-size:.98rem;}
+    .quote-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:36px;}
+    .quote-card{background:var(--card);border:1px dashed var(--line);border-radius:var(--r-lg);padding:36px 32px;color:var(--muted);font-style:italic;}
+    .quote-card .mark{font-family:'Fredoka',sans-serif;font-size:2.4rem;color:var(--shallows);line-height:1;}
+    .band{background:var(--tide);color:#fff;}
+    .band h2,.band p{color:#fff;}
+    .band-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start;}
+    .band .lead{color:rgba(255,255,255,.92);}
+    .form-card{background:var(--paper);border-radius:var(--r-lg);padding:32px;box-shadow:var(--shadow);color:var(--deep);}
+    .form-card p.intro{margin-top:0;color:var(--deep);}
+    .field{margin-bottom:18px;}
+    .field label{display:block;font-weight:700;margin-bottom:6px;font-size:.95rem;}
+    .field input,.field textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:var(--r-sm);font-family:'Karla',sans-serif;font-size:1rem;background:#fff;color:var(--deep);}
+    .field input:focus,.field textarea:focus{outline:2px solid var(--tide);outline-offset:1px;border-color:var(--tide);}
+    .field textarea{resize:vertical;min-height:110px;}
+    .hp{position:absolute;left:-9999px;top:-9999px;}
+    .privacy{color:var(--muted);font-size:.85rem;margin-top:12px;}
+    .form-status{margin-top:14px;font-weight:700;color:var(--tide);}
+    footer{background:var(--deep);color:var(--paper);padding:56px 0 40px;}
+    footer a{color:var(--shallows);}
+    .footer-logo .wordmark{font-family:'Pacifico',cursive;font-size:1.5rem;color:var(--paper);}
+    .footer-line{margin:14px 0 6px;}
+    .footer-small{margin-top:22px;color:rgba(251,247,239,.6);font-size:.85rem;}
+    .mobile-menu{display:none;position:fixed;top:72px;left:16px;right:16px;z-index:49;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:14px;}
+    .mobile-menu a{display:block;padding:12px 14px;text-decoration:none;color:var(--deep);font-weight:600;border-radius:var(--r-sm);}
+    .mobile-menu a:hover{background:var(--sand);}
+    .mobile-menu.open{display:block;}
+    @media (max-width:860px){.nav-links{display:none;}.nav-toggle{display:block;}.about-grid{grid-template-columns:1fr;gap:32px;}.lesson-cards{grid-template-columns:1fr;}.quote-grid{grid-template-columns:1fr;}.band-grid{grid-template-columns:1fr;gap:36px;}.hero-content{padding-top:120px;}section{padding:64px 0;}}
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;}video.hero-media{display:none;}.hero{background-image:url('hero-vid-1-poster.jpg');background-size:cover;background-position:center;}.btn:hover{transform:none;}}
+  </style>
+</head>
+<body>
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#top" aria-label="AMS Voice Studio home">
+        <img src="ams-logo-lockup.svg" alt="AMS Voice Studio logo" onerror="this.style.display='none';this.insertAdjacentHTML('afterend','&lt;span class=\"wordmark\"&gt;AMS voice studio&lt;/span&gt;');" />
+      </a>
+      <nav class="nav-right" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#lessons">Lessons</a></li>
+          <li><a href="#book">Book</a></li>
+        </ul>
+        <a class="btn btn-primary" href="https://calendly.com/amsvoicestudio/free-consultation" target="_blank" rel="noopener">Book a free consultation</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#lessons">Lessons</a>
+    <a href="#book">Book</a>
+  </div>
+  <main id="top">
+  <section class="hero" aria-label="Find your true voice">
+    <video class="hero-media" autoplay muted loop playsinline poster="hero-vid-1-poster.jpg" aria-label="Bright, natural-light footage of voice lessons">
+      <source src="hero-vid-1.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-scrim"></div>
+    <div class="hero-content">
+      <div class="hero-panel">
+        <span class="eyebrow">Artistry &middot; Method &middot; Sound</span>
+        <h1>Find your true voice.</h1>
+        <p class="subhead">Private voice lessons in St. Augustine and online. Every voice is welcome here.</p>
+        <a class="btn btn-primary" href="https://calendly.com/amsvoicestudio/free-consultation" target="_blank" rel="noopener">Book a free consultation</a>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="section-paper">
+    <div class="wrap about-grid">
+      <div class="about-photo">
+        <img src="aaron-headshot.JPG" alt="Aaron Snodgrass, voice teacher at AMS Voice Studio" />
+      </div>
+      <div class="about-text">
+        <span class="eyebrow">About</span>
+        <h2>Meet Aaron</h2>
+        <p>Hi, I'm Aaron. I'm a classically trained tenor with a Bachelor of Music in Vocal Performance from the University of North Florida. I have performed in operas including Mozart's The Magic Flute, singing Tamino, and Strauss's Die Fledermaus as Dr. Blind, and I have had the joy of singing at The Vatican.</p>
+        <p>My focus now is teaching. I work one on one with each singer to build strong, healthy technique rooted in the bel canto tradition, the Italian classical style built on beautiful, sustainable tone. Whether you want to sing opera, musical theatre, or today's pop, the foundation is the same: a free, easy, well-supported voice that lasts.</p>
+        <p>Singers of every age and level are welcome here, from first-timers to performers preparing for an audition. Let's find your voice together.</p>
+      </div>
+    </div>
+  </section>
+  <section id="lessons" class="section-sand">
+    <div class="wrap">
+      <span class="eyebrow">Lessons</span>
+      <h2>Lessons</h2>
+      <p class="lead">Every lesson is built around you. Healthy, classical technique at the core, with the flexibility to take your voice toward whatever style you love. Lessons are available for all ages, in person in St. Augustine or online.</p>
+      <div class="lesson-cards">
+        <div class="card featured">
+          <h3>Free consultation</h3>
+          <p>Let's talk through your goals and see if we are a fit.</p>
+          <a class="btn btn-primary" href="https://calendly.com/amsvoicestudio/free-consultation" target="_blank" rel="noopener">Book a free consultation</a>
+        </div>
+        <div class="card">
+          <h3>30-minute lesson</h3>
+          <div class="price">$40</div>
+          <p>A focused session to keep your voice growing.</p>
+          <a class="btn btn-secondary" href="https://calendly.com/amsvoicestudio/30min" target="_blank" rel="noopener">Book a 30-minute lesson</a>
+        </div>
+        <div class="card">
+          <h3>60-minute lesson</h3>
+          <div class="price">$75</div>
+          <p>A full hour to dig deep into technique and repertoire.</p>
+          <a class="btn btn-secondary" href="https://calendly.com/amsvoicestudio/60-minute-meeting" target="_blank" rel="noopener">Book a 60-minute lesson</a>
+        </div>
+      </div>
+      <p class="lessons-soft">Available weekly, biweekly, or monthly. Save with a monthly commitment. Ask about packages on your free consultation.</p>
+    </div>
+  </section>
+  <section id="testimonials" class="section-paper">
+    <div class="wrap">
+      <span class="eyebrow">Kind words</span>
+      <h2>Kind words</h2>
+      <div class="quote-grid">
+        <div class="quote-card"><div class="mark">&ldquo;</div><p>[Student testimonial to be added]</p></div>
+        <div class="quote-card"><div class="mark">&ldquo;</div><p>[Student testimonial to be added]</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="book" class="band">
+    <div class="wrap band-grid">
+      <div>
+        <span class="eyebrow" style="color:var(--shallows)">Get started</span>
+        <h2>Ready to find your voice?</h2>
+        <p class="lead">Start with a free consultation. We will talk about where you are, where you want to go, and how lessons can get you there. No pressure, no commitment.</p>
+        <a class="btn btn-primary" href="https://calendly.com/amsvoicestudio/free-consultation" target="_blank" rel="noopener">Book a free consultation</a>
+      </div>
+      <div class="form-card">
+        <p class="intro">Prefer to ask a question first? Send a note and I will get back to you.</p>
+        <form action="https://formspree.io/f/xpqglgrz" method="POST" id="contactForm">
+          <div class="field"><label for="name">Name</label><input type="text" id="name" name="name" autocomplete="name" required /></div>
+          <div class="field"><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email" required /></div>
+          <div class="field"><label for="message">Message <span style="font-weight:400;color:var(--muted)">(optional)</span></label><textarea id="message" name="message"></textarea></div>
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <button type="submit" class="btn btn-secondary">Send</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="privacy">I will only use this to reply about lessons. No spam, ever.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <div class="footer-logo">
+        <img src="ams-logo-lockup.svg" alt="AMS Voice Studio logo" style="height:48px;width:auto;" onerror="this.style.display='none';this.insertAdjacentHTML('afterend','&lt;span class=\"wordmark\"&gt;AMS voice studio&lt;/span&gt;');" />
+      </div>
+      <p class="footer-line">AMS Voice Studio &middot; St. Augustine, FL and online</p>
+      <p class="footer-line"><a href="mailto:amsvoicestudio@protonmail.com">amsvoicestudio@protonmail.com</a></p>
+      <p class="footer-small">&copy; 2026 AMS Voice Studio &middot; Artistry &middot; Method &middot; Sound</p>
+    </div>
+  </footer>
+  <script>
+    const nav=document.getElementById('nav');
+    const onScroll=()=>{if(window.scrollY>40)nav.classList.add('scrolled');else nav.classList.remove('scrolled');};
+    window.addEventListener('scroll',onScroll);onScroll();
+    const toggle=document.getElementById('navToggle');const menu=document.getElementById('mobileMenu');
+    toggle.addEventListener('click',()=>{const open=menu.classList.toggle('open');toggle.setAttribute('aria-expanded',open?'true':'false');});
+    menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');toggle.setAttribute('aria-expanded','false');}));
+    const form=document.getElementById('contactForm');const status=document.getElementById('formStatus');
+    form.addEventListener('submit',async(e)=>{e.preventDefault();status.textContent='Sending...';try{const res=await fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}});if(res.ok){form.reset();status.textContent='Thank you. I will get back to you soon.';}else{status.textContent='Something went wrong. Please email me directly.';}}catch(err){status.textContent='Something went wrong. Please email me directly.';}});
+  </script>
+</body>
+</html>
