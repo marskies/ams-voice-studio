@@ -95,7 +95,7 @@
     .mobile-menu a{display:block;padding:12px 14px;text-decoration:none;color:var(--deep);font-weight:600;border-radius:var(--r-sm);}
     .mobile-menu a:hover{background:var(--sand);}
     .mobile-menu.open{display:block;}
-    @media (max-width:860px){.nav-links{display:none;}.nav-toggle{display:block;}.nav-logo img{height:52px;}.about-grid{grid-template-columns:1fr;gap:32px;}.lesson-cards{grid-template-columns:1fr;}.quote-grid{grid-template-columns:1fr;}.band-grid{grid-template-columns:1fr;gap:36px;}.hero-content{padding-top:120px;}section{padding:64px 0;}}
+    @media (max-width:860px){.nav-links{display:none;}.nav-inner .btn-primary{display:none;}.nav-toggle{display:block;}.nav-inner{padding:12px 18px;}.nav-logo img{height:46px;}.mobile-menu{top:66px;}.mobile-menu .mobile-cta{display:block;text-align:center;margin-top:8px;}.hero{min-height:auto;}.hero-content{padding:104px 18px 56px;max-width:none;width:100%;}.hero-panel{padding:28px 22px 30px;}.hero h1{font-size:clamp(2.1rem,11vw,2.9rem);}.hero p.subhead{font-size:1.08rem;max-width:38ch;}.btn{display:block;width:100%;text-align:center;padding:16px 22px;font-size:1.05rem;}.hero .btn-primary{margin-top:4px;}section{padding:52px 0;}.wrap{padding:0 18px;}h2{font-size:1.7rem;}.lead{font-size:1.05rem;}.about-grid{grid-template-columns:1fr;gap:24px;}.about-photo{aspect-ratio:3/2;max-height:340px;}.lesson-cards{grid-template-columns:1fr;gap:18px;margin-top:28px;}.card{padding:26px 22px;}.quote-grid{grid-template-columns:1fr;}.band-grid{grid-template-columns:1fr;gap:28px;}.form-card{padding:24px 20px;}footer{text-align:center;padding:44px 0 36px;}.footer-logo{margin-left:auto;margin-right:auto;}}@media (max-width:420px){.hero h1{font-size:2.05rem;}.hero-panel{padding:24px 18px 26px;}body{font-size:17px;}.card .price{font-size:1.8rem;}.nav-logo img{height:42px;}}
     @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;}video.hero-media{display:none;}.hero{background-image:url('hero-vid-1-poster.jpg');background-size:cover;background-position:center;}.btn:hover{transform:none;}}
   </style>
 </head>
@@ -120,7 +120,7 @@
     <a href="#about">About</a>
     <a href="#lessons">Lessons</a>
     <a href="#book">Book</a>
-  </div>
+  <a class="btn btn-primary mobile-cta" href="https://calendly.com/amsvoicestudio/free-consultation" target="_blank" rel="noopener">Book a free consultation</a></div>
   <main id="top">
   <section class="hero" aria-label="Find your true voice">
     <video class="hero-media" autoplay muted loop playsinline poster="hero-vid-1-poster.jpg" aria-label="Bright, natural-light footage of voice lessons">
